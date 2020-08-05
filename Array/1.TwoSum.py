@@ -1,25 +1,48 @@
 class Solution(object):
+    # def twoSum(self, nums, target):
+    #     '''
+    #     Brute force
+    #     runtime: 3560 ms
+    #     memory: 13.5 mb
+    #     '''
+    #     for i in range(len(nums)):
+    #         for j in range(i+1,len(nums)):
+    #             if nums[i] + nums[j] == target:
+    #                 return i,j
+
+    # def twoSum(self, nums, target):
+    #     """
+    #     one iteration
+    #     runtime: 984 ms beats 39.57%
+    #     memory: 13.4 mb beats 93.51%
+    #     """
+    #     for i in range(len(nums)):
+    #         if target - nums[i] in nums:
+    #             index = nums.index(target-nums[i])
+    #             if i == index:
+    #                 continue
+    #             else:
+    #                 return i,index
+
     def twoSum(self, nums, target):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        use a dictionary, largely reduce runtime
+        runtime: 36 ms beats 92.36%
+        memory: 14.1 mb beats 19.06%
         """
-        res = []
+        d={}
         for i in range(len(nums)):
-            for j in range(len(nums)):
-                if i == j:
-                    continue
-                if nums[i]+nums[j]==target:
-                    res.append(i)
-                    res.append(j)
-                    return res
-        return res
+            if target - nums[i] in d:
+                return i,d[target- nums[i]]
+            else:
+                d[nums[i]]=i
 
-if __name__=='__main__':
-    nums = [2,7,11,15]
-    target = 9
 
-    s=Solution()
-    res = s.twoSum(nums,target)
+if __name__ == '__main__':
+    # nums = [3, 3]
+    nums = [3,2,4]
+    target = 6
+
+    s = Solution()
+    res = s.twoSum(nums, target)
     print(res)
