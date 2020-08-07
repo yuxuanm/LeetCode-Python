@@ -1,4 +1,5 @@
 class Solution(object):
+    # Method 2
     def threeSum(self, nums):
         """
         firstly sorted the array, once fixed the first term, the other two can be found via binary search.
@@ -29,6 +30,7 @@ class Solution(object):
                     end = end-1
         return res
 
+    # Method 1
     # def threeSum(self, nums):
     #     """
     #     kind of brute force, firstly fix two numbers, then check if the remain value is in the list,
