@@ -4,6 +4,8 @@ class Solution(object):
         similar to question 15.3Sum
         firstly fix two numbers, and search the remaining two via binary search
         rank each individual combinations to control duplication
+        runtime: 528 ms beats 62.28%
+        memory: 12.7 mb beats 69.81%
         """
         res = []
         nums = sorted(nums)
