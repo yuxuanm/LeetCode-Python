@@ -6,6 +6,6 @@
 | 15 |[3Sum](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/15.3Sum.py)| Medium |two pointers|
 | 16 | [3Sum Closest](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/16.3SumClosest.py) | Medium | similar to question 15, two pointers, same idea|
 | 18 | [4Sum](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/18.4Sum.py) | Medium | Similar to question 15 | 
-| | | | | 
+| 26 |[Remove Duplicates from Sorted Array](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/26.RemoveDuplicatesFromSortedArray.py) | Easy | Two pointers | 
 | | | | | 
 | | | | | 
