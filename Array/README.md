@@ -8,4 +8,4 @@
 | 18 | [4Sum](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/18.4Sum.py) | Medium | Similar to question 15 | 
 | 26 |[Remove Duplicates from Sorted Array](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/26.RemoveDuplicatesFromSortedArray.py) | Easy | Two pointers | 
 | 27 | [Remove Elements](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/27.RemoveElement.py) | Easy | Two pointers | 
-| | | | | 
+| 31 | [Next Permutation](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/31.NextPermutation.py) | Medium | from the end of the array, find the first two neighbors in ASC order | 
