@@ -10,8 +10,8 @@
 | 27 | [Remove Elements](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/27.RemoveElement.py) | Easy | Two pointers | 
 | 31 | [Next Permutation](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/31.NextPermutation.py) | Medium | from the end of the array, find the first two neighbors in ASC order | 
 | 33 | [Search in Rotated Sorted Array](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/33.SearchInRotatedSortedArray.py) | Medium | Binary search, at least one half array is strictly increasing | 
-| |  |  | |
-| |  |  | |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/34.%20FindFirstandLastPositionofElementinSortedArray.py)| Medium | Binary search, search the left bound & right bound separately|
+| 35 | [Search Insert Position](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/35.%20SearchInsertPosition.py) | Easy | Binary search |
 | |  |  | |
 | |  |  | |
 | |  |  | |
