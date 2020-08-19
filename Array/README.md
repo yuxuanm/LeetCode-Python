@@ -12,8 +12,8 @@
 | 33 | [Search in Rotated Sorted Array](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/33.SearchInRotatedSortedArray.py) | Medium | Binary search, at least one half array is strictly increasing | 
 | 34 | [Find First and Last Position of Element in Sorted Array](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/34.%20FindFirstandLastPositionofElementinSortedArray.py)| Medium | Binary search, search the left bound & right bound separately|
 | 35 | [Search Insert Position](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/35.%20SearchInsertPosition.py) | Easy | Binary search |
-| |  |  | |
-| |  |  | |
+| 39 | [Combination Sum](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/39.CombinationSum.py) | Medium | Backtrack |
+| 40 | [Combination Sum II](https://github.com/yuxuanm/LeetCode-Python/blob/master/Array/40.CombinationSumII.py) | Medium | Backtrack |
 | |  |  | |
 | |  |  | |
 | |  |  | |
